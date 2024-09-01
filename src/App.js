@@ -28,10 +28,10 @@ const renderer = ({ hours, minutes, seconds, completed }) => {
           alignItems: 'center'
         }}
       >
-        <h3 style={{ margin: 0, padding: 0 }}>
+        <h3 style={{ margin: 0, padding: 0, textAlign: 'center' }}>
           Currently down for maintenance, expected to be back in:
         </h3>
-        <h1 style={{ margin: 0, padding: 0 }}>
+        <h1 style={{ margin: 0, padding: 0, textAlign: 'center' }}>
           {pad(Number(hours))}:{pad(Number(minutes))}:{pad(seconds)}
         </h1>
       </div>
