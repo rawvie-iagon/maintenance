@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        height: "100vh",
+        width: "100vw",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+        backgroundColor: "#F9F9FB",
+      }}
+    >
+      <img
+        alt="logo"
+        style={{ height: "70px" }}
+        src="https://docs.iagon.com/img/iagon-logo-dark.png"
+      />
+      <h3
+        style={{
+          textAlign: "center",
+          fontFamily: "Karla, sans-serif",
+          margin: "15px",
+        }}
+      >
+        Down for maintenance, will be back up soon.
+      </h3>
     </div>
   );
 }
